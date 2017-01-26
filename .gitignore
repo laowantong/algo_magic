@@ -1,0 +1,6 @@
+build
+dist
+algo_magic.egg-info
+algo_magic/__pycache__
+doc/.ipynb_checkpoints
+README.rst
