@@ -2,7 +2,7 @@
 
 PYTHON=~/anaconda/bin/python
 
-cd magic
+cd algo_magic
 
 if [ -d "dist" ] ; then
   rm -R "dist"
