@@ -16,6 +16,10 @@ class Pep8Magics(Magics):
     
             %pep8 filename
         """
+        style = """{
+            BASED_ON_STYLE = pep8
+            COLUMN_LIMIT = 132
+        }"""
         source = cell if cell else codecs.open(line, "r", "utf8").read()
-        result = yapf.yapf_api.FormatCode(source, style_config='pep8')[0]
+        result = yapf.yapf_api.FormatCode(source, style_config=style)[0]
         get_ipython().set_next_input(result.rstrip(), replace = True)
