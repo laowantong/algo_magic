@@ -49,6 +49,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
+        'Framework :: IPython'
     ],
     keywords='algorithmics tools',
     zip_safe=False,

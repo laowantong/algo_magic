@@ -1,5 +1,4 @@
 from IPython.core.magic import (Magics, magics_class, line_cell_magic)
-from IPython.utils.warn import info, error
 from itertools import product
 import re
 
