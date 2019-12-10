@@ -53,7 +53,7 @@ setup(
     ],
     keywords='algorithmics tools',
     zip_safe=False,
-    description=("Set of IPython magic extensions used in the first year algorithmics course at ISFATES (University of Lorraine)."),
+    description=("Set of IPython magic extensions used in the first year algorithmics course at University of Lorraine."),
     url='https://github.com/laowantong/algo_magic',
     author='Aristide Grange',
     author_email='name.surname@univ-lorraine.fr',

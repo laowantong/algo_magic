@@ -55,7 +55,7 @@ class TruthMagics(Magics):
         if line:
             print(truth(*line.split(", "), bools = bools))
         elif cell:
-            print(truth(*cell.split("\n"), bools = bools))
+            print(truth(*cell.strip().split("\n"), bools = bools))
     
     @line_cell_magic
     def truth01(self, line, cell = None):

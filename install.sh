@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PYTHON=~/anaconda/bin/python
+PYTHON=/anaconda3/bin/python
 
 if [ -d "dist" ] ; then
   rm -R "dist"
@@ -18,6 +18,6 @@ $PYTHON setup.py install
 $PYTHON setup.py sdist
 $PYTHON setup.py bdist_wheel --universal
 
-# ~/anaconda/bin/twine upload dist/*
+/anaconda3/bin/twine upload dist/*
 
 echo "Done."
