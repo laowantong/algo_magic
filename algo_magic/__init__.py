@@ -1,6 +1,6 @@
 import sys
 
-__version__ = '1.2'
+__version__ = '1.3.2'
 
 if sys.version_info >= (3, 0):
     from algo_magic.algo_magic import *
